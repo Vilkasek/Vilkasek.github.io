@@ -15,14 +15,30 @@ body
 
 .container
 {
-    padding: 10px 0;
-    margin: auto;
+    padding: 10px 5px;
+    margin-left: auto;
+    margin-right: auto;
 
     width: 80%;
 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+
+    justify-content: center;
+
+    word-wrap: normal;
+}
+.clock
+{
+    padding: 5px 0;
+
+    width: 100%;
+    text-align: center;
+}
+.clock #clock
+{
+    font-size: 30px;
 }
 
 #logo
@@ -30,7 +46,14 @@ body
     padding: 10px 0;
     width: 100%;
     text-align: center;
-    border: 1px solid white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#logo h1
+{
+    font-size: 45px;
 }
