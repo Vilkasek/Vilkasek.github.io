@@ -15,6 +15,10 @@ function add_zero(x)
 {
     if(x < 10)
     {
-        div.innerHTML = "0" + x;
+        return "0" + x;
+    }
+    else
+    {
+        return x;
     }
 }
