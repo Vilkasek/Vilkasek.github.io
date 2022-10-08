@@ -90,11 +90,8 @@ body
     flex-direction: row;
     flex-wrap: wrap;
 
-    justify-content: center;
-    align-items: center;
-
-    row-gap: 5px;
-    column-gap: 5px;
+    row-gap: 10px;
+    column-gap: 10px;
 
     text-align: center;
 }
@@ -136,7 +133,7 @@ body
 }
 .tile h3
 {
-    font-size: 30px;
+    font-size: 25px;
 
     text-shadow: 3px 3px black;
 
