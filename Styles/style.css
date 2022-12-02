@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-html, body
-{
+html,
+body {
     padding: 0;
     margin: 0;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-body
-{
+body {
     background-color: black;
     color: white;
 }
 
-.container
-{
+.container {
     padding: 10px 5px;
     margin-left: auto;
     margin-right: auto;
@@ -32,15 +30,13 @@ body
 
     word-wrap: normal;
 }
-.clock
-{
+.clock {
     padding: 5px 0;
 
     width: 100%;
     text-align: center;
 }
-.main
-{
+.main {
     width: 100%;
 
     display: flex;
@@ -54,8 +50,7 @@ body
     column-gap: 8px;
     row-gap: 10px;
 }
-.card
-{
+.card {
     min-width: 48%;
 
     padding: 0 5px;
@@ -74,13 +69,11 @@ body
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.foot
-{
+.foot {
     text-align: center;
     width: 100%;
 }
-.content
-{
+.content {
     width: 100%;
 
     padding: 10px 0;
@@ -95,8 +88,7 @@ body
 
     text-align: center;
 }
-.tile
-{
+.tile {
     background-color: rgba(255, 255, 255, 0.578);
     box-shadow: 0 0 10px rgb(0, 0, 0) inset;
 
@@ -114,8 +106,7 @@ body
     -o-border-radius: 10px;
 }
 
-#logo
-{
+#logo {
     padding: 10px 0;
     width: 100%;
     text-align: center;
@@ -127,26 +118,22 @@ body
     -o-border-radius: 10px;
 }
 
-.clock #clock
-{
+.clock #clock {
     font-size: 30px;
 }
-.tile h3
-{
+.tile h3 {
     font-size: 25px;
 
     text-shadow: 3px 3px black;
 
     text-transform: uppercase;
 }
-#logo h1
-{
+#logo h1 {
     font-size: 45px;
 }
 
-::-webkit-scrollbar
-{
-    background-color:  rgba(0, 0, 0, 0);
+::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0);
     width: 5px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -154,12 +141,10 @@ body
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-::-webkit-scrollbar-track
-{
-    background-color:  rgba(0, 0, 0, 0);
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
 }
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb {
     background-color: white;
     border-radius: 10px;
 }
